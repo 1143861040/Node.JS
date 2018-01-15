@@ -36,3 +36,12 @@ eg:fs.readfile('file.txt','utf-8',**function(err,data)**{...}...
 * npm init；产生一个符合标准的package.json。
 ## 3.4 调试
 1. 命令行调试（单步调试）：eg：node debug xutiaoshiwenjian.js;注：Node.js调试命令见表3-3
+2. 远程调试：基于TCP协议，默认情况的调试端口是5858，可以通过--debug=1234将调试端口改成1234。
+* eg：node --debug[=port] script.js；脚本会正常执行，不会暂停
+* eg：node --debug-brk[=port] script.js；脚本暂停执行等待客户端连接
+* 注：命令行调试实际上是将两步远程调试自动完成。
+3. 使用Eclipse调试Node.js
+* 具体安装步骤详见书中步骤
+4. 使用node-inspector调试Node.js
+* 具体安装步骤详见书中步骤
+
