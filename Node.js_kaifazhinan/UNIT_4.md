@@ -31,7 +31,7 @@ events模块唯一提供的一个对象：events.EventEmitter。
 * 注：更多的内容详见http://nodejs.org/api/events.html
 ### 4.3.2 error事件
 EventEmitter.emit('error').
-## 4.3.3 继承EventEmitter
+### 4.3.3 继承EventEmitter
 大多数不会直接使用EventEmitter，而是在对象中继承EventEmitter。
 ## 4.4 文件系统fs
 fs模块是文本操作的封装，提供了文件的读取、写入、更名、删除、遍历目录、链接等POSIX文件系统操作，均有异步和同步两个版本。
